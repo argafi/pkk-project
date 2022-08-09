@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-blue: #04031c;
+  --secondary-blue: #080b35;
+  --primary-blue: #152a5d;
+}
+
+.color-primary {
+  color: var(--primary-blue);
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(180deg, #152a5d 10%, #080b35 100%);
+}
+
+.btn-primary {
+  background-color: var(--primary-blue);
+  border: none;
+}
+
+.btn-primary:focus {
+  background-color: var(--secondary-blue);
+  box-shadow: #152a5d7a 0px 0px 0px 0.2rem;
+}
+
+.sidebar-brand-icon img {
+  width: 50px;
+}
+
+.sidebar-brand-text {
+  margin-top: 10px;
+  line-height: 1em;
+}
+
+a.menu-card {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a.menu-card:hover {
+  filter: brightness(0.9);
+}
+
+.border-left-primary {
+  border-left: 0.25rem solid var(--primary-blue) !important;
+}
+
+.card-login {
+  background-color: white;
+}
+
+.mh-100 {
+  min-height: 100vh;
+}
+
+#banner {
+  background-image: url(/img/alpha.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-side-text {
+  max-width: 600px;
+}
+
+#banner::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(21, 42, 93, 0.9) 80%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.position-index {
+  position: relative;
+  z-index: 2;
+}
+
+.title-hero {
+  color: #06d6ff;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.heading-hero {
+  font-family: "Sora", sans-serif;
+  font-size: 3.9rem;
+  color: white;
+}
+
+.btn-hero {
+  width: 70px;
+  padding: 7px 20px;
+  border: 2px solid #06d6ff;
+  border-radius: 19px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-hero {
+  width: 200px;
+}
+
+.row .img-thumb-hero {
+  background-color: aqua;
+  border-radius: 10px;
+  min-height: 180px;
+  display: flex;
+  align-items: flex-end;
+  color: rgb(85, 85, 85);
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.thumb-1 {
+  background-image: url(https://asset.kompas.com/crops/o5KQ1_JFm5YQzq0q5uJHylfs5dA=/0x0:1020x680/750x500/data/photo/2020/09/12/5f5bbb35eeaf9.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.thumb-2 {
+  background-image: url(https://cdn.linkaja.com/website/posts/February2022/1644834941-hero-mobile-legends-moontoon.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.thumb-3 {
+  background-image: url(https://awsimages.detik.net.id/community/media/visual/2020/11/13/mobile-legends-campus-championship_169.jpeg?w=700&q=90);
+  background-size: cover;
+  background-position: center;
+}
+
+.thumb-desc {
+  background-color: var(--primary-blue);
+  padding: 4px 6px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0px 0px 6px var(--primary-blue);
+}
+
+footer {
+  background-image: linear-gradient(180deg, #152a5d 10%, #080b35 100%);
+  padding: 20px !important;
+}
+
+.shadow-navbar {
+  box-shadow: 1px 1px 1px black;
+}
+
+/* Dashboard */
+
+a.card-dashboard {
+  text-decoration: none;
+}
+
+.card-dashboard {
+  transition: 0.2s;
+}
+
+.card-dashboard:hover {
+  transform: translateY(-7px);
+  filter: brightness(0.95);
+}
+
+/* End of Dashboard */
+
+@media (max-width: 768px) {
+  #banner {
+    background-position: -1100px;
+  }
+}
+
+@media (max-width: 568px) {
+  #banner {
+    background-position: -1300px;
+  }
+}
