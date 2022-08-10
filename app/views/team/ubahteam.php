@@ -1,8 +1,8 @@
 <h1 class="h1 mb-2 text-gray font-weight-bolder">UBAH DATA</h1>
 
 <div class="row">
-    <div class="col-md-5">
-        <form method="POST" action="<?= BASE_URL ?>/team/prosesubah" class="mb-3">
+    <div class="col-lg-7">
+        <form method="POST" action="<?= BASE_URL ?>/dashboard/proses_ubahteam" class="mb-3">
             <input type="hidden" name="id-team" value="<?= $data['team']['id_team'] ?>">
             <div class="form-group">
                 <label for="nama-team">Nama Team</label>

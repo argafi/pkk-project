@@ -40,7 +40,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item mb-2">
-                <a class="nav-link" href="<?= BASE_URL ?>/team">
+                <a class="nav-link" href="<?= BASE_URL ?>/dashboard/team">
                     <i class="fas fa-fw fa-users"></i>
                     <span>Team</span></a>
             </li>

@@ -29,8 +29,8 @@
                     <?php foreach ($data['team'] as $team) : ?>
                         <tr>
                             <td class="text-center">
-                                <a href="<?= BASE_URL ?>/team/ubah/<?= $team['id_team'] ?>" class="btn btn-success mb-1">Edit</a>
-                                <a href="<?= BASE_URL ?>/team/hapus/<?= $team['id_team'] ?>" class="btn btn-danger mb-1">Hapus</a>
+                                <a href="<?= BASE_URL ?>/dashboard/ubah_team/<?= $team['id_team'] ?>" class="btn btn-success mb-1">Edit</a>
+                                <a href="<?= BASE_URL ?>/dashboard/hapus_team/<?= $team['id_team'] ?>" class="btn btn-danger mb-1">Hapus</a>
                             </td>
                             <td><?= $team['team_name'] ?></td>
                             <td><?= $team['description'] ?></td>
@@ -58,7 +58,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="<?= BASE_URL ?>/team/tambah" method="POST">
+                <form action="<?= BASE_URL ?>/dashboard/tambah_team" method="POST">
                     <div class="form-group">
                         <label for="nama-team">Nama Team</label>
                         <input type="text" class="form-control" id="nama-team" name="nama-team">
